@@ -3,7 +3,7 @@
 # Run locally using:
 # yo hubot --owner="Eldrick Wega <eldrick.wega@gmail.com>" --name="myhubot" --description="Converts Temperature from Celsius to Farenheit and vis versa when prompted" --adapter=campfire --defaults
 
-Temperature = require '../lib/temperature'
+Temperature = require 'lib/temperature'
 
 module.exports = (robot) ->
 
