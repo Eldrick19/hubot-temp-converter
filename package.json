@@ -14,7 +14,7 @@
     "name": "Eldrick19",
     "email": "eldrickman19@gmail.com"
   },
-  "main": "lib/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "watch": "coffee -c -w -o dist src &",
     "compile": "coffee -c -o dist src",
