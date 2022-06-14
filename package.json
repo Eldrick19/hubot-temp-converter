@@ -1,0 +1,26 @@
+{
+  "name": "hubot-temperature-converter",
+  "description": "A hubot plugin to convert temperatures",
+  "keywords": [
+    "hubot",
+    "plugin",
+    "temperature",
+    "converter"
+  ],
+  "homepage": "https://github.com/Eldrick19/hubot-temperature-converter#readme",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "Eldrick19",
+    "email": "eldrickman19@gmail.com"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "watch": "coffee -c -w -o dist src &",
+    "compile": "coffee -c -o dist src",
+    "prepublishOnly": "npm run-script compile"
+  },
+  "dependencies": {
+    "coffeescript": "^2.7.0"
+  }
+}

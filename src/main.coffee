@@ -55,6 +55,6 @@ module.exports = (robot) ->
         temp.celsiusToRomer()
       else
         res.send "Can't convert that temperature scale! \nAvailable :thermometer: - C, F, K, R, D, N, Re, Ro"
-          return
+        return
           
       res.send "#{tempValue.toFixed(2)} degrees #{convertFrom} = #{temp.tempValue.toFixed(2)} degrees #{convertTo}"
