@@ -1,4 +1,4 @@
-# hubot-temp-converter - <img src="img/hubot.png" width=30> + <img src="img/thermometer.png" width=20>
+# hubot-temp-converter - <img src="https://github.com/Eldrick19/hubot-temp-converter/tree/main/img/hubot.png" width=30> + <img src="https://github.com/Eldrick19/hubot-temp-converter/tree/main/img/thermometer.png" width=20>
 A hubot script that converts the following temperature to and from eachother:
 
 - Celsius (C) 
