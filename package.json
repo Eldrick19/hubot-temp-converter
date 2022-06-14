@@ -1,5 +1,5 @@
 {
-  "name": "hubot-temperature-converter",
+  "name": "hubot-temp-converter",
   "description": "A hubot plugin to convert temperatures",
   "keywords": [
     "hubot",
